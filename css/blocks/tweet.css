@@ -1,0 +1,155 @@
+.create-tweet {
+  display: flex;
+  margin-top: 50px;
+  padding: 10px 15px;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.create-tweet img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.create-tweet input {
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  color: rgb(83, 100, 113);
+  width: 450px;
+}
+
+.create-tweet input:focus {
+  outline: none;
+}
+
+.create-tweet button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  height: 35px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  padding: 9px 16px;
+}
+
+.create-tweet button:hover {
+  background-color: rgb(26, 140, 216);
+}
+
+.tweet {
+  display: flex;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  margin-bottom: 2px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.tweet:hover {
+  background: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+ 
+.tweet a {
+  color: rgb(29,155,240);
+  text-decoration: none;
+}
+
+.tweet a:hover {
+  text-decoration: underline;
+}
+
+.tweet__author-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.tweet__header {
+  display: flex;
+}
+
+.tweet__author-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.tweet__author-slug {
+  color: rgb(83, 100, 113);
+  font-size: 15px;
+}
+
+.tweet__publish-time {
+  margin-left: 5px;
+  color: rgb(83, 100, 113);
+}
+
+.tweet__image {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.tweet__more-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.tweet__more-icon:hover {
+  background-color: rgba(29,155,240, 0.1);
+  filter: invert(59%) sepia(40%) saturate(5687%) hue-rotate(179deg) brightness(97%) contrast(93%);
+  cursor: pointer;
+}
+
+.tweet__more-icon img {
+  width: 100%;
+  filter: invert(35%) sepia(18%) saturate(481%) hue-rotate(164deg) brightness(101%) contrast(88%);
+}
+
+.tweet__impression {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.impression-icon {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: rgb(83, 100, 113);
+}
+
+.impression-icon__container {
+  border-radius: 50%;
+  padding: 10px 12px;
+  margin-right: 5px;
+  transition: 0.2s;
+}
+
+.tweet__impression img {
+  height: 15px;
+  width: 15px;
+  filter: invert(35%) sepia(18%) saturate(481%) hue-rotate(164deg) brightness(101%) contrast(88%);
+}
+
+.impression-icon__container:hover {
+  background-color: rgba(29,155,240, 0.1);
+  filter: invert(59%) sepia(40%) saturate(5687%) hue-rotate(179deg) brightness(97%) contrast(93%);
+  cursor: pointer;
+}

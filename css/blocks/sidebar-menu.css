@@ -1,0 +1,97 @@
+.sidebar-menu {
+  position: fixed;
+  margin-top: 70px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  width: 230px;
+}
+
+.sidebar-menu__item {
+  font-size: 20px;
+  color: #0F1419;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+}
+
+.sidebar-menu__item:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.sidebar-menu__item--active {
+  font-weight: 700;
+}
+
+.sidebar-menu__item-icon {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.sidebar-menu__item--active .sidebar-menu__item-icon {
+  filter: invert(0%) sepia(0%) saturate(13%) hue-rotate(260deg) brightness(99%) contrast(103%);
+}
+
+.sidebar-menu button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  height: 55px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 8px;
+  padding: 9px 16px;
+  transition: 0.2s;
+}
+
+.sidebar-menu button:hover {
+  background-color: rgb(26, 140, 216);
+}
+
+.account-profile__container {
+  margin-top: auto;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 50px;
+  transition: background-color 0.2s;
+}
+
+.account-profile__container:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+}
+
+.account-profile {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.account-profile__picture{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.account-profile__name {
+  font-weight: bold;
+}
+
+.account-profile__slug {
+  color: rgb(83, 100, 113);
+}
+
+.more-icon {
+  height: 20px;
+  margin-left: auto;
+}

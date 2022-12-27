@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/blocks/layout.css">
+  <link rel="stylesheet" href="css/blocks/brand.css">
+  <link rel="stylesheet" href="css/blocks/header.css">
+  <link rel="stylesheet" href="css/blocks/sidebar-menu.css">
+  <link rel="stylesheet" href="css/blocks/tweet.css">
+  <link rel="stylesheet" href="css/blocks/trends-for-you.css">
+  <link rel="stylesheet" href="css/blocks/who-to-follow.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="layout__left-sidebar">
+      <div class="brand-container">
+        <img class="brand" src="svg/twitter.svg" alt="">
+      </div>
+      <div class="sidebar-menu">
+        <div class="sidebar-menu__item sidebar-menu__item--active">
+          <img class="sidebar-menu__item-icon" src="svg/home.svg" alt="">
+          <div>
+            Home
+          </div>
+        </div>
+
+        <div class="sidebar-menu__item">
+          <img class="sidebar-menu__item-icon" src="svg/explore.svg" alt="">
+          Explore
+        </div>
+
+        <div class="sidebar-menu__item">
+          <img class="sidebar-menu__item-icon" src="svg/notifications.svg" alt="">
+          Notifications
+        </div>
+
+        <div class="sidebar-menu__item">
+          <img class="sidebar-menu__item-icon" src="svg/messages.svg" alt="">
+          Messages
+        </div>
+
+        <div class="sidebar-menu__item">
+          <img class="sidebar-menu__item-icon" src="svg/profile.svg" alt="">
+          Profile
+        </div>
+
+        <div class="sidebar-menu__item">
+          <img class="sidebar-menu__item-icon" src="svg/more.svg" alt="">
+          More
+        </div>
+        
+        <button>Tweet</button>
+
+        <div class="account-profile__container">
+          <div class="account-profile">
+            <img class="account-profile__picture" src="images/twitterprofile.png" alt="">
+            <div class="account-profile__info">
+              <div class="account-profile__name">gn aplds</div>
+              <div class="account-profile__slug">@GnAplds</div>
+            </div>
+            <img class="more-icon" src="svg/more.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout__main">
+      <div class="main__header-block">
+        <div class="main__header-container">
+          <div class="main__header">
+            Home
+          </div>
+        </div>
+      </div>
+      <div class="create-tweet">
+        <img src="images/twitterprofile.png" alt="">
+        <input type="text" placeholder="What's happening?">
+        <button>Tweet</button>
+      </div>
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p1.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              Chris Staudinger
+            </div>
+            <div class="tweet__author-slug">
+              @ChrisStaud &middot;
+            </div>
+            <div class="tweet__publish-time">
+              21h
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+      
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p2.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              Csaba Kissi
+            </div>
+            <div class="tweet__author-slug">
+              @csaba_kissi &middot;
+            </div>
+            <div class="tweet__publish-time">
+              10d
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p3.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              Pratham
+            </div>
+            <div class="tweet__author-slug">
+              @Prathkum &middot;
+            </div>
+            <div class="tweet__publish-time">
+              15m
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p4.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              Sahil Bloom
+            </div>
+            <div class="tweet__author-slug">
+              @SahilBloom &middot;
+            </div>
+            <div class="tweet__publish-time">
+              1h
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p5.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              Elon Musk
+            </div>
+            <div class="tweet__author-slug">
+              @elonmusk &middot;
+            </div>
+            <div class="tweet__publish-time">
+              14h
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p6.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              Andrew Tate
+            </div>
+            <div class="tweet__author-slug">
+              @Cobratate &middot;
+            </div>
+            <div class="tweet__publish-time">
+              36m
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+
+      <div class="tweet">
+        <img class="tweet__author-logo" src="images/p7.jpg" alt="">
+        <div class="tweet__main">
+          <div class="tweet__header">
+            <div class="tweet__author-name">
+              MrBeast
+            </div>
+            <div class="tweet__author-slug">
+              @MrBeast &middot;
+            </div>
+            <div class="tweet__publish-time">
+              3h
+            </div>
+          </div>
+          <div class="tweet__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam magnam, vel alias accusantium quis delectus nostrum repellendus esse fuga?
+          </div>
+          <div class="tweet__impression">
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/view.png" alt="">
+              </div>
+              400
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/reply.png" alt="">
+              </div>
+              12
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/retweet.png" alt="">
+              </div>
+              67
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/like.png" alt="">
+              </div>
+              234
+            </div>
+            <div class="impression-icon">
+              <div class="impression-icon__container">
+                <img src="svg/share.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet__more-icon">
+          <img src="svg/more.png" alt="">
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="layout__right-sidebar-container">
+      <div class="layout__right-sidebar">
+        <div class="right-sidebar-header-container">
+          <div class="right-sidebar-header">
+            <div>
+              <img class="search-icon" src="svg/search.svg" alt="">
+            </div>
+            <input class="search-bar" type="text" placeholder="Search Twitter">
+          </div>
+        </div>
+
+        <div class="trends-for-you">
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__heading">
+              Trends for you
+            </div>
+          </div>
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__meta-information">
+              Trending in Philippines
+            </div>
+            <div class="trends-for-you__trend-name">
+              #SimCardRegistration
+            </div>
+            <div class="trends-for-you__meta-information">
+              
+            </div>
+            <div class="trends__more-icon">
+              <img src="svg/more.png" alt="">
+            </div>
+          </div>
+
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__meta-information">
+              Celebrities &middot; Trending
+            </div>
+            <div class="trends-for-you__trend-name">
+              #PartnersInCrime
+            </div>
+            <div class="trends-for-you__meta-information">
+              10.4k Tweets
+            </div>
+            <div class="trends__more-icon">
+              <img src="svg/more.png" alt="">
+            </div>
+          </div>
+
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__meta-information">
+              Technology &middot; Trending
+            </div>
+            <div class="trends-for-you__trend-name">
+              Javascript
+            </div>
+            <div class="trends-for-you__meta-information">
+              2,800 Tweets
+            </div>
+            <div class="trends__more-icon">
+              <img src="svg/more.png" alt="">
+            </div>
+          </div>
+
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__meta-information">
+              Trending in Philippines
+            </div>
+            <div class="trends-for-you__trend-name">
+              Uniqlo
+            </div>
+            <div class="trends-for-you__meta-information">
+              402K Tweets
+            </div>
+            <div class="trends__more-icon">
+              <img src="svg/more.png" alt="">
+            </div>
+          </div>
+
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__meta-information">
+              Trending in Philippines
+            </div>
+            <div class="trends-for-you__trend-name">
+              Family Matters
+            </div>
+            <div class="trends-for-you__meta-information">
+              2,334 Tweets
+            </div>
+            <div class="trends__more-icon">
+              <img src="svg/more.png" alt="">
+            </div>
+          </div>
+
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__meta-information">
+              Technology &middot; Trending
+            </div>
+            <div class="trends-for-you__trend-name">
+              #MachineLearning
+            </div>
+            <div class="trends-for-you__meta-information">
+              9,160 Tweets
+            </div>
+            <div class="trends__more-icon">
+              <img src="svg/more.png" alt="">
+            </div>
+          </div>
+          
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__more">
+              Show more
+            </div>
+          </div>
+        </div>
+        
+        <div class="who-to-follow">
+          <div class="who-to-follow__block">
+            <div class="who-to-follow__heading">
+              Who to follow
+            </div>
+          </div>
+          <div class="who-to-follow__block">
+            <img class="who-to-follow__author-logo" src="images/w1.jpg" alt="">
+            <div class="who-to-follow__content">
+              <div>
+                <div class="who-to-follow__author-name">
+                  Easlo
+                </div>
+
+                <div class="who-to-follow__author-slug">
+                  @heyeaslo
+                </div>
+              </div>
+              
+              <div class="who-to-follow__button">
+                Follow
+              </div>
+            </div>
+          </div>
+
+          <div class="who-to-follow__block">
+            <img class="who-to-follow__author-logo" src="images/w2.jpg" alt="">
+            <div class="who-to-follow__content">
+              <div>
+                <div class="who-to-follow__author-name">
+                  Naval
+                </div>
+
+                <div class="who-to-follow__author-slug">
+                  @naval
+                </div>
+              </div>
+              
+              <div class="who-to-follow__button">
+                Follow
+              </div>
+            </div>
+          </div>
+
+          <div class="who-to-follow__block">
+            <img class="who-to-follow__author-logo" src="images/w3.jpg" alt="">
+            <div class="who-to-follow__content">
+              <div>
+                <div class="who-to-follow__author-name">
+                  Dr Jordan B Peterson
+                </div>
+
+                <div class="who-to-follow__author-slug">
+                  @jordanbpeterson
+                </div>
+              </div>
+              
+              <div class="who-to-follow__button">
+                Follow
+              </div>
+            </div>
+          </div>
+          <div class="trends-for-you__block">
+            <div class="trends-for-you__more">
+              Show more
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

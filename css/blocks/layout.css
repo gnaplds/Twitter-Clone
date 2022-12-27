@@ -1,0 +1,27 @@
+.layout {
+  display: grid;
+  grid-template-columns: 265px auto 350px;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.layout__left-sidebar {
+  background-color: white;
+  width: 265px;
+  z-index: 0;
+}
+
+.layout__main {
+  border-left: 1px solid rgb(215, 215, 215);
+  border-right: 1px solid rgb(215, 215, 215);
+  width: auto;
+  z-index: 1;
+}
+
+.layout__right-sidebar {
+  background-color: white;
+  width: 350px;
+  padding-left: 30px;
+  z-index: 0;
+}
+

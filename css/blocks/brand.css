@@ -1,0 +1,17 @@
+.brand {  
+  height: 32px;
+  filter: invert(59%) sepia(40%) saturate(5687%) hue-rotate(179deg) brightness(97%) contrast(93%);
+  padding: 10px 12px;
+}
+
+.brand-container {
+  position: fixed;
+  margin-top: 5px;
+  transition: 0.15s;
+}
+
+.brand-container:hover {
+  background-color: rgba(29,155,240, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
